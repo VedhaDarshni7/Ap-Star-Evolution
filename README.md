@@ -38,6 +38,7 @@ Ap-Star-Evolution
  📦 Installation:
 
 pip install pandas numpy matplotlib
+
 jupyter notebook Ap_Star_White_Dwarf_Prediction.ipynb
 
 
