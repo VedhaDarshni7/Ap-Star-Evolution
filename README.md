@@ -52,14 +52,18 @@ Y-axis: Number of Ap stars.
 📚 Data Source:
 
 Ap star data is derived from published astronomical catalogs (e.g., Gaia DR3, Simbad, LAMOST).
+
 Lifetime estimations use approximations based on stellar evolution theory (e.g., MIST models).
 
 
 📄 Acknowledgements:
 
 MIST Stellar Evolution Models
+
 Gaia Mission
+
 LAMOST Spectroscopic Survey
+
 pandas, numpy, and matplotlib for powering the analysis
 
 
