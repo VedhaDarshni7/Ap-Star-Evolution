@@ -6,6 +6,7 @@ This project predicts **when chemically peculiar Ap stars will evolve into white
 
 ---
 
+
 ## 🔭 Overview
 
 Ap stars (peculiar A-type stars) are interesting due to their strong magnetic fields and chemical peculiarities. Understanding when they transition to white dwarfs helps in tracing stellar evolution and enriching stellar population models.
@@ -18,5 +19,52 @@ This notebook-based analysis:
 
 ---
 
+
 ## 📁 Project Structure
+📦 Ap-Star-Evolution
+├── Ap_Star_White_Dwarf_Prediction.ipynb # Main Jupyter notebook with analysis and plots
+├── Ap_stars_catalog.csv # Input catalog of Ap stars
+├── read_mist_models.py # MIST model reader script (if used)
+├── README.md # This file
+
+---
+
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Ap-Star-Evolution.git
+cd Ap-Star-Evolution
+pip install pandas numpy matplotlib
+jupyter notebook Ap_Star_White_Dwarf_Prediction.ipynb
+
+
+📊 Visualization Preview
+
+The notebook generates histograms showing the estimated time (in Gyr) it takes for Ap stars to become white dwarfs:
+X-axis: Estimated time to become a white dwarf.
+Y-axis: Number of Ap stars.
+
+
+📚 Data Source
+
+Ap star data is derived from published astronomical catalogs (e.g., Gaia DR3, Simbad, LAMOST).
+Lifetime estimations use approximations based on stellar evolution theory (e.g., MIST models).
+
+
+Author
+
+VEDHA DARSHNI.S.R.
+Astrophysics enthusiast | Data Science enthusiast | Data Analysis enthusiast |
+
+
+Acknowledgements
+
+MIST Stellar Evolution Models
+Gaia Mission
+LAMOST Spectroscopic Survey
+pandas, numpy, and matplotlib for powering the analysis
+
 
