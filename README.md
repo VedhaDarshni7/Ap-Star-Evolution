@@ -45,7 +45,9 @@ jupyter notebook Ap_Star_White_Dwarf_Prediction.ipynb
 📊 Visualization Preview:
 
 The notebook generates histograms showing the estimated time (in Gyr) it takes for Ap stars to become white dwarfs:
+
 X-axis: Estimated time to become a white dwarf.
+
 Y-axis: Number of Ap stars.
 
 
