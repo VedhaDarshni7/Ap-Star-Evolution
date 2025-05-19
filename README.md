@@ -21,22 +21,17 @@ This notebook-based analysis:
 
 
 ## 📁 Project Structure
-📦 Ap-Star-Evolution
-├── Ap_Star_White_Dwarf_Prediction.ipynb # Main Jupyter notebook with analysis and plots
-├── Ap_stars_catalog.csv # Input catalog of Ap stars
-├── read_mist_models.py # MIST model reader script (if used)
-├── README.md # This file
+Ap-Star-Evolution
+*Ap_Star_White_Dwarf_Prediction.ipynb # Main Jupyter notebook with analysis and plots
+*Ap_stars_catalog.csv # Input catalog of Ap stars
+*read_mist_models.py # MIST model reader script (if used)
+*README.md # This file
 
 ---
 
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/Ap-Star-Evolution.git
-cd Ap-Star-Evolution
 pip install pandas numpy matplotlib
 jupyter notebook Ap_Star_White_Dwarf_Prediction.ipynb
 
